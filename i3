@@ -1,0 +1,1 @@
+/home/evan/.config/i3/config
