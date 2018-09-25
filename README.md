@@ -1,14 +1,17 @@
 # Dotfiles
 
-i3-gaps, polybar, compton, rofi, zsh, urvxt
+## i3-gaps
 
-i3 -> .config/i3/config
+`ln -s i3 ~/.config/i3/config`
 
-polybar -> .config/polybar/config
+## polybar
+`ln -s polybar ~/.config/polybar/config`
 
-rofi -> .config/rofi/config.rasi
+## rofi
+`ln -s rofi ~/.config/rofi/config.rasi`
 
-zsh-theme -> .oh-my-zsh/themes/robbyrussell.zsh-theme
+## zsh (with oh-my-zsh)
+`ln -s zsh-theme .oh-my-zsh/themes/robbyrussell.zsh-theme`
 
-Xresources -> .Xresources
-
+## X, urvxt
+`ln -s Xresources ~/.Xresources`
