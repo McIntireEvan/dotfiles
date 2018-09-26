@@ -209,6 +209,16 @@ gaps outer 5
 
 ### END GAPS
 
+# CUSTOM KEYS
+
+bindsym --release Print exec "zsh ~/bin/scrotclip.sh"
+
+# END CUSTOM KEYS
+
+# STARTUP
+
 exec "feh --bg-scale ~/rice/bg_mountain.png"
 exec "compton -b"
 exec "polybar example -c ~/.config/polybar/config"
+
+# END STARTUP
